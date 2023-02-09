@@ -1,0 +1,136 @@
+body{
+ background-color: #e0e8ff;
+ font-family: 'Red Hot Display', sans-serif;
+ font-size: 1vw;
+ background-image: url( '/images/pattern-background-desktop.png');
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.component{
+    position: relative;
+    top: 40px;
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5%;
+    overflow: hidden;
+    
+}
+.hero{
+    width: 100%;
+}
+.card{
+    width: 100%;
+    border-radius: 50%;
+}
+.inside-card{
+    padding:  20px 50px;
+}
+.icon-music{
+    width: 15%;
+    height: 15%;    
+    padding-top: 12px;
+}
+.card-detail{
+    line-height: 1.5rem;
+}
+p{
+    color: #7c848f;
+}
+strong{
+    color: black;
+}
+.price{
+    margin: 20px 0px;
+    background-color: #f8f9fe;
+
+    border-radius: 7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.plan{
+    margin-right: 40px;
+}
+.plan>p{
+    margin-left: 5px;
+    padding-top: 0px;
+}
+.price> a:hover{
+    color: #6e63dd;
+    text-decoration: none;
+}
+.change-price{
+    margin-top: 30px;
+}
+.card-proceed>button{
+    margin-bottom: 30px;
+}
+.card-proceed>a{
+    text-decoration: none;
+    color: #7c88b2;
+    font-weight: 700;
+}
+.card-proceed>a:hover{
+    text-decoration: none;
+    color: #2c3b5c;
+}
+.cancel-order{
+    padding: 30px;
+}
+.cancel-order:hover{
+    color: black;
+}
+a{
+  font-weight: 700;  
+  }
+/* button Proceed*/
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 8px 8px #dedbfa;
+    -moz-box-shadow: 3px 8px 8px #dedbfa;
+    box-shadow: 3px 8px 8px #dedbfa;
+    font-family: Arial;
+    color: #f7f5ff;
+    font-size: 16px;
+    padding: 12px;
+    background: #382ae1;
+    text-decoration: none;
+    width: 100%;
+    font-weight: 700;
+  }
+  .btn:hover {
+    background: #766cf1;
+    text-decoration: none;
+  }
+  @media only screen and (max-width:1440px) {
+  }
+  @media only screen and (max-width:375px) {
+    body{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .wrapper{
+        width: 350px;
+        margin-left: 10px;
+        margin-top: -70px;
+    }
+    .component{
+        position: relative;
+        top: 150px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .icon-music{
+        width: 15%;
+        height: 15%;    
+        padding-top: 17px;
+    }
+  }
